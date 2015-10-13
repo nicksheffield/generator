@@ -13,5 +13,5 @@ angular.module('app.directives')
 		scope: {
 			'<%= name %>': '='
 		}
-	};
-});
+	}
+})
