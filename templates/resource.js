@@ -1,6 +1,6 @@
-angular.module('app.models')
+angular.module('app.resources')
 
-.factory('<%= capitalizedName %>', function($resource, $config) {
+.factory('<%= capitalizedName %>', function($resource) {
 	var url = '/<%= lowerName %>/:id';
 
 	var defaults = {
