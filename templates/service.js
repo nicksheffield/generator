@@ -1,9 +1,9 @@
 angular.module('app.services')
 
-.factory('$<%= name %>', function() {
+.factory('<%= name %>', function() {
 	var service = {
 		
-	};
+	}
 
-	return service;
-});
+	return service
+})
